@@ -28,6 +28,7 @@ void ACharacterBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	AttributeSetBaseComponent->OnHealthChange.AddDynamic(this, &ACharacterBase::OnHealthChanged);
 }
 
 // Called to bind functionality to input
@@ -52,6 +53,15 @@ void ACharacterBase::AquireAbility(TSubclassOf<UGameplayAbility> AbilityToAquire
 		}
 		AbilitySystemComponent->InitAbilityActorInfo(this, this);
 	}
+}
+
+void ACharacterBase::OnHealthChanged(float Health, float MaxHealth)
+{
+	if(Health <= 0.f)
+	{
+		BP_Dead();
+	}
+	BP_OnHealthChanged(Health, MaxHealth);
 }
 
 

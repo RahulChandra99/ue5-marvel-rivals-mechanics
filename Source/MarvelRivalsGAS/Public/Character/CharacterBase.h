@@ -42,4 +42,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "GAS|Ability")
 	void AquireAbility(TSubclassOf<UGameplayAbility> AbilityToAquire);
 
+	UFUNCTION()
+	void OnHealthChanged(float Health, float MaxHealth);
+
+	UFUNCTION(BlueprintImplementableEvent, Category="GAS|Ability", meta = (DisplayName="OnHealthChanged"))
+	void BP_OnHealthChanged(float Health, float MaxHealth);
+	
+	UFUNCTION(BlueprintImplementableEvent, Category="GAS|Ability", meta = (DisplayName="Dead"))
+	void BP_Dead();
 };
