@@ -3,11 +3,16 @@
 
 #include "Character/CharacterBase.h"
 
+#include "Character/Abilities/AttributeSetBase.h"
+
 // Sets default values
 ACharacterBase::ACharacterBase()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+	AttributeSetBaseComponent = CreateDefaultSubobject<UAttributeSetBase>(TEXT("AttributeSetBaseComponent"));
 
 }
 
@@ -31,4 +36,22 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
+
+UAbilitySystemComponent* ACharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
+void ACharacterBase::AquireAbility(TSubclassOf<UGameplayAbility> AbilityToAquire)
+{
+	if(AbilitySystemComponent)
+	{
+		if(HasAuthority() && AbilityToAquire)
+		{
+			AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(AbilityToAquire,1,0));
+		}
+		AbilitySystemComponent->InitAbilityActorInfo(this, this);
+	}
+}
+
 
