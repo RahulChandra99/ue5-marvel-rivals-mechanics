@@ -50,4 +50,8 @@ public:
 	
 	UFUNCTION(BlueprintImplementableEvent, Category="GAS|Ability", meta = (DisplayName="Dead"))
 	void BP_Dead();
+
+protected:
+
+	bool bIsDead;
 };
