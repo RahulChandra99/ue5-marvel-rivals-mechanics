@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\darkernodes\\module.darkernodes.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\intermediate\\build\\win64\\x64\\marvelmechanicseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\darkernodes\\definitions.darkernodes.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\brushdatabase.gen.cpp",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\source\\darkernodes\\private\\lib\\brushdatabase.h",
+            "d:\\ue 5\\ue_5.4\\engine\\source\\runtime\\slate\\public\\slatematerialbrush.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\brushdatabase.generated.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\darkernodes.init.gen.cpp",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\darkernodessettings.gen.cpp",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\source\\darkernodes\\public\\darkernodessettings.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\darkernodessettings.generated.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\dnupdateconfig.gen.cpp",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\source\\darkernodes\\private\\popup\\dnupdateconfig.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvelmechanics\\plugins\\darkernodes\\intermediate\\build\\win64\\unrealeditor\\inc\\darkernodes\\uht\\dnupdateconfig.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

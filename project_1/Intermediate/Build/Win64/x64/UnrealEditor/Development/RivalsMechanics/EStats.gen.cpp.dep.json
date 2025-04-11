@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\unrealeditor\\inc\\rivalsmechanics\\uht\\estats.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\x64\\rivalsmechanicseditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rivalsmechanics\\definitions.rivalsmechanics.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\source\\rivalsmechanics\\public\\characters\\estats.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

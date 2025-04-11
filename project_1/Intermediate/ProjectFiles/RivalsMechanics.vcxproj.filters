@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RivalsMechanics.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RivalsMechanics.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RivalsMechanicsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\gitattributes.txt" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RivalsMechanics">
+      <UniqueIdentifier>{52FE4709-0E67-3E96-98CC-2C389446E603}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RivalsMechanics\RivalsMechanics.Build.cs">
+      <Filter>Source\RivalsMechanics</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RivalsMechanics\RivalsMechanics.cpp">
+      <Filter>Source\RivalsMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RivalsMechanics\RivalsMechanics.h">
+      <Filter>Source\RivalsMechanics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RivalsMechanics\RivalsMechanicsCharacter.cpp">
+      <Filter>Source\RivalsMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RivalsMechanics\RivalsMechanicsCharacter.h">
+      <Filter>Source\RivalsMechanics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RivalsMechanics\RivalsMechanicsGameMode.cpp">
+      <Filter>Source\RivalsMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RivalsMechanics\RivalsMechanicsGameMode.h">
+      <Filter>Source\RivalsMechanics</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Private">
+      <UniqueIdentifier>{8A0F825E-02B3-3042-A768-DCA809F38521}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\RivalsPlayerController.cpp">
+      <Filter>Source\RivalsMechanics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\RobotActor.cpp">
+      <Filter>Source\RivalsMechanics\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\AI">
+      <UniqueIdentifier>{5299054B-472F-377C-B89C-7D195580DF07}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\AI\RobotAI.cpp">
+      <Filter>Source\RivalsMechanics\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\AI\RobotCharacter.cpp">
+      <Filter>Source\RivalsMechanics\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Animations">
+      <UniqueIdentifier>{8A01C1C2-57A3-3C93-9146-392A26698680}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Animations\PlayerAnimInstance.cpp">
+      <Filter>Source\RivalsMechanics\Private\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Animations\ToggleTraceNotifyState.cpp">
+      <Filter>Source\RivalsMechanics\Private\Animations</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Character">
+      <UniqueIdentifier>{A1632879-1ADB-385F-9904-572A1A19135F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Character\StatsComponent.cpp">
+      <Filter>Source\RivalsMechanics\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Characters">
+      <UniqueIdentifier>{B6216D2D-B6A6-3BA0-9918-21278AB0B861}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Characters\EnemyCharacter.cpp">
+      <Filter>Source\RivalsMechanics\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Characters\EStats.cpp">
+      <Filter>Source\RivalsMechanics\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Characters\MagixCharacter.cpp">
+      <Filter>Source\RivalsMechanics\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Characters\PlayerActionsComponent.cpp">
+      <Filter>Source\RivalsMechanics\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Combat">
+      <UniqueIdentifier>{A852B546-514E-3487-9E82-59BDF51AD972}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Combat\CombatComponent.cpp">
+      <Filter>Source\RivalsMechanics\Private\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Combat\LockOnComponent.cpp">
+      <Filter>Source\RivalsMechanics\Private\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Combat\TraceComponent.cpp">
+      <Filter>Source\RivalsMechanics\Private\Combat</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Hela">
+      <UniqueIdentifier>{D7209989-E6D0-334B-96C6-BC2B92E1A369}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Hela\HelaCharacter.cpp">
+      <Filter>Source\RivalsMechanics\Private\Hela</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Hela\HelaPrimaryProjectile.cpp">
+      <Filter>Source\RivalsMechanics\Private\Hela</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Interfaces">
+      <UniqueIdentifier>{3AD437CF-C798-3CBB-972C-013177A928DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Interfaces\Enemy.cpp">
+      <Filter>Source\RivalsMechanics\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Interfaces\Fighter.cpp">
+      <Filter>Source\RivalsMechanics\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Interfaces\Magix.cpp">
+      <Filter>Source\RivalsMechanics\Private\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Punisher">
+      <UniqueIdentifier>{AD1A29AF-6985-30E0-BBF1-124EFB4517B4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Punisher\PunisherAnimInstance.cpp">
+      <Filter>Source\RivalsMechanics\Private\Punisher</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Punisher\Actors">
+      <UniqueIdentifier>{544A09B7-F38A-3DDD-AF3A-66C12DEB1C46}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Punisher\Actors\Gun.cpp">
+      <Filter>Source\RivalsMechanics\Private\Punisher\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Private\Punisher\Characters">
+      <UniqueIdentifier>{C0C2D005-5272-3EFD-B6BA-00D0573F2F63}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Punisher\Characters\PunisherCharacter.cpp">
+      <Filter>Source\RivalsMechanics\Private\Punisher\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RivalsMechanics\Private\Punisher\Characters\ShooterAIController.cpp">
+      <Filter>Source\RivalsMechanics\Private\Punisher\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\RivalsMechanics\Public">
+      <UniqueIdentifier>{C300513B-862F-3365-BD35-32611869B83E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\RivalsPlayerController.h">
+      <Filter>Source\RivalsMechanics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\RobotActor.h">
+      <Filter>Source\RivalsMechanics\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\AI">
+      <UniqueIdentifier>{10533AA5-B5D1-3E5A-86F1-5358BC627E22}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\AI\RobotAI.h">
+      <Filter>Source\RivalsMechanics\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\AI\RobotCharacter.h">
+      <Filter>Source\RivalsMechanics\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Animations">
+      <UniqueIdentifier>{993562D5-D309-3A27-B443-D02A4E212505}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Animations\PlayerAnimInstance.h">
+      <Filter>Source\RivalsMechanics\Public\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Animations\ToggleTraceNotifyState.h">
+      <Filter>Source\RivalsMechanics\Public\Animations</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Character">
+      <UniqueIdentifier>{146977F3-09C4-3C47-874F-C013567CAF90}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Character\StatsComponent.h">
+      <Filter>Source\RivalsMechanics\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Characters">
+      <UniqueIdentifier>{711071FB-8698-3AE2-A26F-24842496D986}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Characters\EnemyCharacter.h">
+      <Filter>Source\RivalsMechanics\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Characters\EStats.h">
+      <Filter>Source\RivalsMechanics\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Characters\MagixCharacter.h">
+      <Filter>Source\RivalsMechanics\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Characters\PlayerActionsComponent.h">
+      <Filter>Source\RivalsMechanics\Public\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Combat">
+      <UniqueIdentifier>{269C8416-7AA6-3BE8-81AE-638F81D69703}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Combat\CombatComponent.h">
+      <Filter>Source\RivalsMechanics\Public\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Combat\LockOnComponent.h">
+      <Filter>Source\RivalsMechanics\Public\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Combat\TraceComponent.h">
+      <Filter>Source\RivalsMechanics\Public\Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Hela">
+      <UniqueIdentifier>{19FDDC87-3297-36CA-8F98-6236FD4B67D0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Hela\HelaCharacter.h">
+      <Filter>Source\RivalsMechanics\Public\Hela</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Hela\HelaPrimaryProjectile.h">
+      <Filter>Source\RivalsMechanics\Public\Hela</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Interfaces">
+      <UniqueIdentifier>{8ADB01FE-2AF2-3D82-8D2E-27EF5F64F210}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Interfaces\Enemy.h">
+      <Filter>Source\RivalsMechanics\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Interfaces\Fighter.h">
+      <Filter>Source\RivalsMechanics\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Interfaces\Magix.h">
+      <Filter>Source\RivalsMechanics\Public\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Punisher">
+      <UniqueIdentifier>{C78C8F9C-3B54-3FDC-A582-0E6AE48081FA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Punisher\PunisherAnimInstance.h">
+      <Filter>Source\RivalsMechanics\Public\Punisher</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Punisher\Actors">
+      <UniqueIdentifier>{4793420D-F2C4-3EBD-930B-548BEF52A096}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Punisher\Actors\Gun.h">
+      <Filter>Source\RivalsMechanics\Public\Punisher\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\RivalsMechanics\Public\Punisher\Characters">
+      <UniqueIdentifier>{FCA75E81-C8CF-380B-9A7D-B12FAB9034DF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Punisher\Characters\PunisherCharacter.h">
+      <Filter>Source\RivalsMechanics\Public\Punisher\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RivalsMechanics\Public\Punisher\Characters\ShooterAIController.h">
+      <Filter>Source\RivalsMechanics\Public\Punisher\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

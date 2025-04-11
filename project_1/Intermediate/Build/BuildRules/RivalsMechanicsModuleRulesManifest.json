@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GameDevelopment\\UnrealEngine\\Projects\\ue5-marvel-rivals-mechanics\\Source\\RivalsMechanics\\RivalsMechanics.Build.cs",
+		"D:\\GameDevelopment\\UnrealEngine\\Projects\\ue5-marvel-rivals-mechanics\\Source\\RivalsMechanics.Target.cs",
+		"D:\\GameDevelopment\\UnrealEngine\\Projects\\ue5-marvel-rivals-mechanics\\Source\\RivalsMechanicsEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

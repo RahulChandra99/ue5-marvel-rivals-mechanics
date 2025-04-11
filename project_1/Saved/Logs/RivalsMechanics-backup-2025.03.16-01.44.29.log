@@ -1,0 +1,56 @@
+﻿Log file open, 03/16/25 01:44:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=22356)
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: RivalsMechanics
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.3323] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i5-13500HX"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\GameDevelopment\UnrealEngine\Projects\ue5-marvel-rivals-mechanics\RivalsMechanics.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="176cae3e46dc13cdfda63593674e42a9"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.667219
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-C2DA7FB944C56C5460D5169ABC2249CF
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../GameDevelopment/UnrealEngine/Projects/ue5-marvel-rivals-mechanics/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: Display: Loading VulkanPC ini files took 0.02 seconds
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogAssetRegistry: Display: Asset registry cache read as 25.8 MiB from ../../../../../GameDevelopment/UnrealEngine/Projects/ue5-marvel-rivals-mechanics/Intermediate/CachedAssetRegistry_0.bin
+Message dialog closed, result: Yes, title: Missing CustomizableInteractionPlugin Plugin, text: This project requires the CustomizableInteractionPlugin plugin.
+
+Would you like to download it from the Unreal Engine Marketplace?
+LogWindows: LaunchURL https://www.unrealengine.com/marketplace/en-US/product/customizable-interaction-plugin
+LogPluginManager: Display: Downloading 'CustomizableInteractionPlugin' plugin from marketplace (https://www.unrealengine.com/marketplace/en-US/product/customizable-interaction-plugin).
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 03/16/25 01:44:29

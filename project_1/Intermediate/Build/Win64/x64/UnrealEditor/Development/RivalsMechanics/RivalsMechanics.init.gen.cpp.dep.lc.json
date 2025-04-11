@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\rivalsmechanics\\intermediate\\build\\win64\\unrealeditor\\inc\\rivalsmechanics\\uht\\rivalsmechanics.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\rivalsmechanics\\intermediate\\build\\win64\\x64\\rivalsmechanicseditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\rivalsmechanics\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rivalsmechanics\\definitions.rivalsmechanics.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

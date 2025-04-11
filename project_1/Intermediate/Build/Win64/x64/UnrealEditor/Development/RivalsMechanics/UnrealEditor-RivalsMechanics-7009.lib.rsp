@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RivalsMechanics-7009.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GameDevelopment\UnrealEngine\Projects\marvel-rivals-mechanics-ue5\Intermediate\Build\Win64\x64\RivalsMechanicsEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"D:\GameDevelopment\UnrealEngine\Projects\marvel-rivals-mechanics-ue5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RivalsMechanics\Module.RivalsMechanics.cpp.obj"
+"D:\GameDevelopment\UnrealEngine\Projects\marvel-rivals-mechanics-ue5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RivalsMechanics\PunisherAnimInstance.cpp.obj"
+"D:\GameDevelopment\UnrealEngine\Projects\marvel-rivals-mechanics-ue5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RivalsMechanics\PunisherCharacter.cpp.obj"
+"D:\GameDevelopment\UnrealEngine\Projects\marvel-rivals-mechanics-ue5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RivalsMechanics\Default.rc2.res"
+/OUT:"D:\GameDevelopment\UnrealEngine\Projects\marvel-rivals-mechanics-ue5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RivalsMechanics\UnrealEditor-RivalsMechanics-7009.lib"

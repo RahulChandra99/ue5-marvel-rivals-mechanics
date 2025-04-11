@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\unrealeditor\\inc\\rivalsmechanics\\uht\\rivalsmechanicsgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\x64\\rivalsmechanicseditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rivalsmechanics\\definitions.rivalsmechanics.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\source\\rivalsmechanics\\rivalsmechanicsgamemode.h",
+            "d:\\ue 5\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\ue 5\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\ue 5\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\ue 5\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\unrealeditor\\inc\\rivalsmechanics\\uht\\rivalsmechanicsgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\source\\rivalsmechanics\\private\\robotactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\x64\\rivalsmechanicseditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rivalsmechanics\\definitions.rivalsmechanics.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\source\\rivalsmechanics\\public\\robotactor.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\marvel-rivals-mechanics-ue5\\intermediate\\build\\win64\\unrealeditor\\inc\\rivalsmechanics\\uht\\robotactor.generated.h",
+            "d:\\ue 5\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "d:\\ue 5\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\ue 5\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\ue 5\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
